@@ -98,7 +98,8 @@
             "scripts": [
                 "{{template_dir}}/scripts/installers/docker-compose.sh",
                 "{{template_dir}}/scripts/installers/docker-moby.sh",
-                "{{template_dir}}/scripts/installers/docker.sh"
+                "{{template_dir}}/scripts/installers/docker.sh",
+                "{{template_dir}}/scripts/installers/nodejs.sh"
             ],
             "environment_vars": [
                 "METADATA_FILE={{user `metadata_file`}}",
